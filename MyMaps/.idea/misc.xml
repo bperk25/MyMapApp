@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/activity_create_map.xml" value="0.32760416666666664" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/activity_display_map.xml" value="0.32760416666666664" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/activity_main.xml" value="0.33125" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/dialog_creat_map.xml" value="0.33177083333333335" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/dialog_creat_place.xml" value="0.33177083333333335" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/dialog_create_map.xml" value="0.5546875" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/dialog_create_place.xml" value="0.5546875" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/layout/item_user_map.xml" value="0.31354166666666666" />
-        <entry key="..\:/Users/Bryan/Documents/CS/MyMaps/app/src/main/res/menu/menu_create_map.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/activity_create_map.xml" value="0.5546875" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/activity_display_map.xml" value="0.5546875" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/activity_main.xml" value="0.5546875" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/dialog_create_map.xml" value="0.5546875" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/dialog_create_place.xml" value="0.5546875" />
+        <entry key="..\:/Users/Bryan/Documents/FML/MyMaps-master/app/src/main/res/layout/item_user_map.xml" value="0.5546875" />
+        <entry key="app/src/main/res/drawable/custom_marker.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/drawable/map_circle_pin.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/drawable/new_map_pin.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_create_map.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/dialog_create_place.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_user_map.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/menu_create_map.xml" value="0.20364583333333333" />
       </map>
     </option>
   </component>

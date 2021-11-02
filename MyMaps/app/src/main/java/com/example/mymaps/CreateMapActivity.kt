@@ -5,7 +5,6 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.Menu
@@ -26,10 +25,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.example.mymaps.databinding.ActivityCreateMapBinding
 import com.example.mymaps.models.Place
 import com.example.mymaps.models.UserMap
-import android.os.SystemClock
 
-import android.view.animation.BounceInterpolator
-import android.view.animation.Interpolator
 
 
 private const val TAG = "CreateMapActivity"
@@ -54,7 +50,7 @@ class CreateMapActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.view?.let {
             Snackbar.make(it, "Long press to add a marker!", Snackbar.LENGTH_INDEFINITE)
                 .setAction("OK") {}
-                .setActionTextColor(ContextCompat.getColor(this, android.R.color.white))
+                .setActionTextColor(ContextCompat.getColor(this, android.R.color.holo_green_light))
                 .show()
         }
     }
@@ -105,16 +101,6 @@ class CreateMapActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(siliconValley, 10f))
     }
 
-    private fun dropPinEffect(marker: Marker) {
-        // Handler allows us to repeat a code block after a specified delay
-        val handler = Handler()
-        val start = SystemClock.uptimeMillis()
-        val duration: Long = 1500
-
-        // Use the bounce interpolator
-        val interpolator: Interpolator = BounceInterpolator()
-
-    }
 
     private fun showAlertDialog(latLng: LatLng) {
         val placeFormView = LayoutInflater.from(this).inflate(R.layout.dialog_create_place, null)
@@ -135,7 +121,6 @@ class CreateMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
             val marker = mMap.addMarker(MarkerOptions().position(latLng).title(title).snippet(description))
             markers.add(marker)
-            dropPinEffect(marker)
             dialog.dismiss()
         }
     }

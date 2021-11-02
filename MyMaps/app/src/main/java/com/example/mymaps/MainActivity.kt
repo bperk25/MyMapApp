@@ -1,7 +1,6 @@
 package com.example.mymaps
 
 import android.app.Activity
-import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
@@ -14,12 +13,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.example.mymaps.models.Place
 import com.example.mymaps.models.UserMap
 import java.io.*
+import android.graphics.drawable.ColorDrawable
+
+
+
 
 const val EXTRA_USER_MAP = "EXTRA_USER_MAP"
 const val REQUEST_CODE = 1234

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#CEFFF3"
+    tools:context=".MainActivity"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvMaps"
