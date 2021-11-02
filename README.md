@@ -22,9 +22,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://i.imgur.com/6EbG5M3.gif
-
-GIF created with [CloudConvert](https://cloudconvert.com/mov-to-gif).
+<iframe src="https://giphy.com/embed/5D8ohkJuo18F9cXLnd" width="217" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Notes
 
